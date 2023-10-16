@@ -1,0 +1,102 @@
+
+ .heading{
+    font-family: 'Poppins', sans-serif;
+    font-size: 36px;
+    color: #008080;
+    text-transform: uppercase;
+    text-align: center; 
+    letter-spacing: 2px; 
+    margin-bottom: 20px; 
+    border-bottom: 2px solid #008080;
+    padding: 10px; 
+    background-color: #f5f5f5;
+   }
+
+/* Style the container div */
+.search {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  /* Style the search input */
+  .search input[type="text"] {
+    padding: 10px; 
+    font-size: 14px; 
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    flex-grow: 1;
+    margin-right: 10px;
+  }
+  
+  /* Style the search buttons */
+  .buttons {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #008080;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  /* Style the search buttons on hover */
+  .buttons:hover {
+    background-color: #005757;
+  }
+  
+  /* Style the reset button */
+  .buttons:last-child {
+    background-color: #ccc;
+    color: #333;
+  }
+  
+  /* Style the reset button on hover */
+  .buttons:last-child:hover {
+    background-color: #999;
+    color: #fff;
+  }
+
+  /* Style the table */
+.user_table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Style the table headers (th) */
+  .user_table th {
+    background-color: #008080;
+    color: #fff;
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+    width: auto; /* Adjust column width based on content */
+  }
+  
+  /* Style the table data cells (td) */
+  .user_table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  /* Style even rows in the table body */
+  .user_table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  /* Style rows on hover */
+  .user_table tbody tr:hover {
+    background-color: #ddd;
+  }
+  
+  
+  
+  
+
+
+
